@@ -13,7 +13,7 @@
 
 <div align="center">
   
-# 🐉 Game of Thrones - Módulo 3 Resilia Educação 🐉
+# 🐉 Game of Thrones 🐉 - Módulo 3 Resilia Educação 🐉
 
 </div>
 <div align="left"><a href="https://www.resilia.com.br">Resilia Educação</a></div>
@@ -41,4 +41,11 @@
 ><img src="./img/got03.png" height="500px" width="700px">
 >
 ><p>Nosso grupo utilizou o POWER BI como ferramenta de criação dos gráficos retirados das querys<br /> feitas dentro do MySQL para referenciar o que utilizados no projeto.</p>
+></div>
+
+<div align="center">
+
+> ## 👾 Tecnologias e Ferramentas Utilizadas 👾
+
+><img src="./img/techandtools.png" height="500px" width="700px"><br />
 ></div>
