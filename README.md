@@ -9,7 +9,7 @@
  
 * ### Lucas <a href="https://www.linkedin.com/in/lucascalebe/" target="_blank">Linkedin </a> <a href="https://github.com/lccalebe" target="_blank">Github</a>
  
-* ### André <a href="https://www.linkedin.com/school/resilia-educacao/" target="_blank">Linkedin </a> <a href="https://github.com/ardomingos" target="_blank">Github</a>
+* ### André <a href="https://www.linkedin.com/in/andr%C3%A9-rodrigues-4224b6231/" target="_blank">Linkedin </a> <a href="https://github.com/ardomingos" target="_blank">Github</a>
 
 <div align="center">
   
