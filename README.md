@@ -13,7 +13,7 @@
 
 <div align="center">
   
-# 🐉 Game of Thrones 🐉 - Módulo 3 Resilia Educação 🐉
+# 🐉 Game of Thrones - Módulo 3 Resilia Educação 🐉
 
 </div>
 <div align="left"><a href="https://www.resilia.com.br">Resilia Educação</a></div>
