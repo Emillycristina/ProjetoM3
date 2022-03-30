@@ -25,7 +25,11 @@
   
 > ## 🧾 MYSQL Workbench - Database 🧾
 > 
-><img src="./img/mysql_workbench.png" height="500px" width="700px">
+><img src="./img/query01.png" height="200px" width="550px"><br />
+><img src="./img/query02.png" height="200px" width="550px"><br />
+><img src="./img/query03.png" height="200px" width="550px"><br />
+><img src="./img/query04.png" height="200px" width="550px"><br />
+><img src="./img/query05.png" height="200px" width="550px"><br />
 ><p>Dentro do MySQL, nosso grupo utilizou o que foi ensinado durante o módulo para criar e desenvolver<br />as requisições das querys do nosso projeto.<br />Assim, de acordo com o que foi feito no MySQL, passamos direto para o Power BI.</p><br />
 ></div>
 ##
