@@ -1,0 +1,12 @@
+:root{
+    --cor-de-fundo:#18191d;
+    --cor-de-fundo-site:#121317;
+    --cor-botao-selecionado: #333333;
+    --cor-botao: #272322;
+    --cor-letras: #ffffff;
+}
+
+html, body{
+    height: 100%;
+    background-color: var(--cor-de-fundo-site);
+}

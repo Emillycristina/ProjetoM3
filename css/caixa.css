@@ -1,7 +1,3 @@
-html, body{
-    height: 100%;
-}
-
     .caixa{
         
         height: 75%;
@@ -9,10 +5,14 @@ html, body{
         position: relative;
         top: 20%;
         left: 10%;
-        border: solid black 2px;
+        border: solid gray 2px;
     }
 
     
+        
     .foto{
-        height: 350px;
+        height: 365px;;
     }
+
+    
+   

@@ -1,58 +1,35 @@
+//abas
 const item1 = document.getElementById('linkUm');
-
 const item2 = document.getElementById('linkDois');
-
 const item3 = document.getElementById('linkTres');
-
 const item4 = document.getElementById('linkQuatro');
-
 const item5 = document.getElementById('linkCinco');
-
 const item6 = document.getElementById('linkSeis');
-
 const item7 = document.getElementById('linkSete');
-
 const item8 = document.getElementById('linkOito');
-
 const item9 = document.getElementById('linkNove');
-
 const item10 = document.getElementById('linkDez');
-
 const item11 = document.getElementById('linkOnze');
-
 const item12 = document.getElementById('linkDoze');
-
 const item13 = document.getElementById('linkTreze');
 
 
 
 
 
-
+//caixas abaixo
 const conteudo1 = document.getElementById('tabUm');
-
 const conteudo2 = document.getElementById('tabDois');
-
 const conteudo3 = document.getElementById('tabTres');
-
 const conteudo4 = document.getElementById('tabQuatro');
-
 const conteudo5 = document.getElementById('tabCinco');
-
 const conteudo6 = document.getElementById('tabSeis');
-
 const conteudo7 = document.getElementById('tabSete');
-
 const conteudo8 = document.getElementById('tabOito');
-
 const conteudo9 = document.getElementById('tabNove');
-
 const conteudo10 = document.getElementById('tabDez');
-
 const conteudo11 = document.getElementById('tabOnze');
-
 const conteudo12 = document.getElementById('tabDoze');
-
 const conteudo13 = document.getElementById('tabTreze');
 
 
