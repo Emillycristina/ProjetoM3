@@ -1,133 +1,127 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">  
-    <link rel="stylesheet" href="css/reset.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/caixa.css">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width initial-scale=1.0">
+    <title>Game Of Thrones DataBase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="css/reset.css">
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/cabecalho.css">
+<link rel="stylesheet" href="css/intro.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/enredo.css">
+<link rel="stylesheet" href="css/contatos.css">
 </head>
 <body>
-    <header>
-
+    <header class="cabecalho">
+        <img class="cabecalho__logo" src="https://fontmeme.com/permalink/220330/0ab333167c766cada9f3619f30e731f4.png" alt="Logo da Game Of thrones">
+        <nav class="cabecalho__navegacao">
+            <ul>
+                <li class="cabecalho__link"><a href="#secao">Sobre</a></li>
+                <li class="cabecalho__link"><a href="#graficos">Graficos</a></li>
+                <li class="cabecalho__link"><a href="#modelagem">Modelagem do Banco</a></li>
+                <li class="cabecalho__link"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
     </header>
-
-    <div class="caixa">    
-        <ul class="nav nav-tabs" role="tablist">
+    <main>
+        <section class="chamada container">
             
-            <li class="nav-item" role="presentation">
-                <a href="#tabUm" class="nav-link active" id="linkUm" data-toggle="tab" role="tab" aria-controls="tabUm">Episodios com maiores notas</a>
-            </li>
             
-            <li class="nav-item" role="presentation">
-                <a href="#tabDois" class="nav-link" id="linkDois" data-toggle="tab" role="tab" aria-controls="tabDois">Armas mais usadas para matar</a>
-            </li>
-
-            <li class="nav-item" role="presentation">
-                <a href="#tabTres" class="nav-link" id="linkTres" data-toggle="tab" role="tab" aria-controls="tabTres">Atores que ficaram mais tempo na serie</a>
-            </li>
-
-            <li class="nav-item" role="presentation">
-                <a href="#tabQuatro" class="nav-link" id="linkQuatro" data-toggle="tab" role="tab" aria-controls="tabQuatro">Casa que mais matou</a>
-            </li>
-
-            <li class="nav-item" role="presentation">
-                <a href="#tabCinco" class="nav-link" id="linkCinco" data-toggle="tab" role="tab" aria-controls="tabCinco">Locais com mais mortos</a>
-            </li>
-
-            <li class="nav-item" role="presentation">
-                <a href="#tabSeis" class="nav-link" id="linkSeis" data-toggle="tab" role="tab" aria-controls="tabSeis">Episodios mais longos</a>
-            </li>
-
-            <li class="nav-item" role="presentation">
-                <a href="#tabSete" class="nav-link" id="linkSete" data-tog7le="tab" role="tab" aria-controls="tabSete">Numeros de mortes por temporada</a>
-            </li>
-
-            <li class="nav-item" role="presentation">
-                <a href="#tabOito" class="nav-link" id="linkOito" data-toggle="tab" role="tab" aria-controls="tabOito">Quem matou mais</a>
-            </li>
             
-            <li class="nav-item" role="presentation">
-                <a href="#tabNove" class="nav-link" id="linkNove" data-toggle="tab" role="tab" aria-controls="tabNove">Regiao com mais casas</a>
-            </li>
+        </section>
+        
+        <section class="enredo container" id="secao">
+            <div class="enredo__conteudo">
+                    
+                <h2 class="enredo__titulo">Enredo</h2>
+                <p class="enredo__texto">Nos continentes de Westeros e Essos, em uma terra em que as estações duram anos, três enredos principais têm início.</p>
+                <br>
+                <p class="enredo__texto">Nos Sete Reinos, em Westeros, famílias nobres disputam o poder e a influência política sobre o Trono de Ferro. Do outro lado do mar, em Essos, a última herdeira exilada da Casa Targaryen, família que governou os Sete Reinos durante séculos, tenta sobreviver. No extremo Norte, criaturas lendárias e misteriosas chamadas Outros ressurgem depois de milênios para ameaçar os reinos dos homens.</p>
+                <br>
+                <p class="enredo__texto">A história é contada pelo ponto de vista de oito personagens, com cada capítulo correspondendo à visão de algum deles sobre eventos a seu redor. O leitor tem contato com os acontecimentos ao acompanhar seis membros da Casa Stark e um da Casa Lannister, em Westeros, e a exilada Daenerys Targaryen, em Essos.</p>
+                <br>
+                                
+            </div>
+            <img src="img/logo-um.jpg" alt="Ned Stark" class="enredo__imagem">
+        </section>
 
-            <li class="nav-item" role="presentation">
-                <a href="#tabDez" class="nav-link" id="linkDez" data-toggle="tab" role="tab" aria-controls="tabDez">Rei que mais foi atacado</a>
-            </li>
-
-            <li class="nav-item" role="presentation">
-                <a href="#tabOnze" class="nav-link" id="linkOnze" data-toggle="tab" role="tab" aria-controls="tabOnze">Rei que mais atacou</a>
-            </li>
-
-            <li class="nav-item" role="presentation">
-                <a href="#tabDoze" class="nav-link" id="linkDoze" data-toggle="tab" role="tab" aria-controls="tabDoze">Temporada com Melhores Notas</a>
-            </li>
-
-            <li class="nav-item" role="presentation">
-                <a href="#tabTreze" class="nav-link" id="linkTreze" data-toggle="tab" role="tab" aria-controls="tabTreze">Top 10 Atores que mais apareceram</a>
-            </li>
-
-        </ul> 
-
-        <div class="tab-content" id="conteudos">
+        <section class="container flex" id="graficos">
             
-            <div class="tab-pane fade show active" id="tabUm" role="tabpanel" aria-labelledby="linkUm">
-                <img src="img/grafico1.jpg" class="foto" alt="" srcset="">
-            </div>
+            <h2 class="enredo__titulo posicionamento__titulo">Graficos</h2>
+            
+            <div class="container">
 
-            <div class="tab-pane fade" id="tabDois" role="tabpanel" aria-labelledby="linkDois">
-                grafico 2
+                <div class="item" id="img">
+                    <iframe title="dashboard_got" width="1024" height="612" src="https://app.powerbi.com/view?r=eyJrIjoiZWUyNDkzYjctODhlYi00NzY0LWI5N2MtZGY2OTgxNjY1ODQyIiwidCI6ImJiYmViYTdmLWFlNmYtNDJhNi04YzA0LWEzYTFiMTdhZjU4YyJ9&pageName=ReportSection" frameborder="0" allowFullScreen="true"></iframe>
+                </div>
             </div>
+                
+        </section>
 
-            <div class="tab-pane fade" id="tabTres" role="tabpanel" aria-labelledby="linkTres">
-                grafico 3
-            </div>
+        <section class="container flex modelagem" id="modelagem">
+            
+            <h2 class="enredo__titulo posicionamento__titulo">Modelagem do Banco</h2>
+            
+           <img src="img/modelagem.got.png" alt="tabela" srcset="">
+        </section>
 
-            <div class="tab-pane fade" id="tabQuatro" role="tabpanel" aria-labelledby="linkQuatro">
-                grafico 4
-            </div>
 
-            <div class="tab-pane fade" id="tabCinco" role="tabpanel" aria-labelledby="linkCinco">
-                grafico 5
-            </div>
+        <section class="container contato" id="contato">
+            <h2 class="enredo__titulo posicionamento__titulo">Contato</h2>
 
-            <div class="tab-pane fade" id="tabSeis" role="tabpanel" aria-labelledby="linkSeis">
-                grafico 6
-            </div>
+            <div class="posicionamento__link">
+                
+                <div>
+                    <h2 class="cor__nome">André Rodrigues</h2>
+                    <br>
+                    <a class="cor__link" href="https://github.com/ardomingos">GitHub</a>
+                    <a class="cor__link" href="https://www.linkedin.com/in/andr%C3%A9-rodrigues-4224b6231/">Linkedin</a>
+                </div>
+                
+                <div>
+                    <h2 class="cor__nome">Emily Cristina</h2>
+                    <br>
+                    <a class="cor__link" href="https://github.com/Emillycristina">GitHub</a>
+                    <a class="cor__link" href="https://www.linkedin.com/in/emilly-finco/">Linkedin</a>
+                </div>
+                
 
-            <div class="tab-pane fade" id="tabSete" role="tabpanel" aria-labelledby="linkSete">
-                grafico 7
+                <div>
+                    <h2 class="cor__nome">Felipe Nascimento</h2>
+                    <br>
+                    <a class="cor__link" href="https://github.com/felipenascto7">GitHub</a>
+                    <a class="cor__link" href="https://www.linkedin.com/in/felipenascto/">Linkedin</a>
+                </div>
+                
+                <div>
+                    <h2 class="cor__nome">Lucas Calebe</h2>
+                    <br>
+                    <a class="cor__link" href="https://github.com/lccalebe">GitHub</a>
+                    <a class="cor__link" href="https://www.linkedin.com/in/lucascalebe/">Linkedin</a>
+                </div>
+                            
+               
             </div>
+        </section>
 
-            <div class="tab-pane fade" id="tabOito" role="tabpanel" aria-labelledby="linkOito">
-                grafico 8
-            </div>
-
-            <div class="tab-pane fade" id="tabNove" role="tabpanel" aria-labelledby="linkNove">
-                grafico 9
-            </div>
-
-            <div class="tab-pane fade" id="tabDez" role="tabpanel" aria-labelledby="linkDez">
-                grafico 10
-            </div>
-
-            <div class="tab-pane fade" id="tabOnze" role="tabpanel" aria-labelledby="linkOnze">
-                grafico 11
-            </div>
-
-            <div class="tab-pane fade" id="tabDoze" role="tabpanel" aria-labelledby="linkDoze">
-                grafico 12
-            </div>
-
-            <div class="tab-pane fade" id="tabTreze" role="tabpanel" aria-labelledby="linkTreze">
-                grafico 13
-            </div>
-        </div>
-    </div>
- 
+    </main>
+    <footer class="rodape container" id="rodape">
+        <img class="rodape__logo" src="https://fontmeme.com/permalink/220330/0ab333167c766cada9f3619f30e731f4.png" alt="Logo da Game Of thrones">
+    
+        <nav>
+            <ul class="rodape__navegacao">
+                <li class="rodape__link"><a href="#secao">Sobre</a></li>
+                <li class="rodape__link"><a href="#graficos">Graficos</a></li>
+                <li class="rodape__link"><a href="#modelagem">Modelagem do Banco</a></li>
+                <li class="rodape__link"><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </footer>
+    
 </body>
-<script src="js/item.js"></script>
 </html>
+
